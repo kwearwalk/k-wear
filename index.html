@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K-WEAR | Download</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+    }
+
+    h1 {
+      color: gold;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: gold;
+      color: black;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 1.2em;
+      text-decoration: none;
+      margin: 10px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #d4af37;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      margin-top: 20px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid gold;
+    }
+  </style>
+  <script>
+    function iosUnavailable() {
+      alert("Ainda não disponível para iOS.");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="K-WEAR Logo" class="logo">
+    <h1>K-WEAR</h1>
+    <p>Walk Your Lane</p>
+  </header>
+
+  <main>
+    <p>Baixe agora o nosso aplicativo oficial e faça seus pedidos com facilidade!</p>
+    <a href="kwear.apk" class="btn" download>📥 Baixar para Android</a>
+    <a href="javascript:void(0)" onclick="iosUnavailable()" class="btn">🍎 Baixar para iOS</a>
+  </main>
+
+  <footer>
+    &copy; 2025 K-WEAR. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
